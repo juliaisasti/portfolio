@@ -1,3 +1,9 @@
+@media screen and (min-width: 600px) {
+    div.mainWrap {
+      font-size: 20px;
+    }
+  }
+
 @font-face {
     font-family: NeueMontrealBook;
     src: url("../fonts/PPNeueMontreal-Book.otf") format("opentype");
@@ -33,26 +39,53 @@ font-weight: thin;
 src: url("../fonts/PPNeueMontreal-Thin.otf") format("opentype");
 } 
 
-body {
+* {
     background-color: #f7f3f5;
     font-family: NeueMontrealBook;
 }
 
+a:link {
+    color: #12130f
+}
+
+a:visited {
+    color: #e00400
+}
+
 h2 {
-    font-size: 100px;
+    font-size: 80px;
 }
 
 
 h1 {
     font-family: NeueMontrealItalic;
     font-weight: Italic;
-    font-size: 200px;
+    font-size: 180px;
+    display: inline-block;
+    word-break: break-word;
 }
+
+nav {
+    font-weight: Medium;
+    font-size: 40px;
+}
+
+.mainWrap {
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 
 .redes {
     width: 50px;
 }
 
-a:visited {
-    color: #e00400
+.footerWrap {
+    margin: 40px;
+    justify-content: space-between;
 }
