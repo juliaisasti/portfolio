@@ -1,10 +1,58 @@
-body {
-    background-color: pink;
-}
-#section {
-    width: 10px;
+@font-face {
+    font-family: NeueMontrealBook;
+    src: url("../fonts/PPNeueMontreal-Book.otf") format("opentype");
 }
 
-img {
-    width: 100%;
+@font-face {
+    font-family: NeueMontrealBold;
+    font-weight: bold;
+    src: url("../fonts/PPNeueMontreal-Bold.otf") format("opentype");
+}
+
+@font-face {
+font-family: NeueMontrealItalic;
+font-weight: italic;
+src: url("../fonts/PPNeueMontreal-Italic.otf") format("opentype");
+}
+
+@font-face {
+font-family: NeueMontrealMedium;
+font-weight: medium;
+src: url("../fonts/PPNeueMontreal-Medium.otf") format("opentype");
+}
+
+@font-face {
+font-family: NeueMontrealSemiBoldItalic;
+font-weight: semiBoldItalic;
+src: url("../fonts/PPNeueMontreal-SemiBolditalic.otf") format("opentype");
+}
+
+@font-face {
+font-family: NeueMontrealThin;
+font-weight: thin;
+src: url("../fonts/PPNeueMontreal-Thin.otf") format("opentype");
+} 
+
+body {
+    background-color: #f7f3f5;
+    font-family: NeueMontrealBook;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+
+h1 {
+    font-family: NeueMontrealItalic;
+    font-weight: Italic;
+    font-size: 200px;
+}
+
+.redes {
+    width: 50px;
+}
+
+a:visited {
+    color: #e00400
 }
