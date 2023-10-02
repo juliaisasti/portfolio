@@ -115,3 +115,7 @@ nav {
     width: 3vh;
     font-size: 1.2vh;
 }
+
+.hide {
+    display: none;
+  }
