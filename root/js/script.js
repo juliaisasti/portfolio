@@ -1,4 +1,4 @@
-/*document.getElementById("boton1").addEventListener("click", function () {
+document.getElementById("boton1").addEventListener("click", function () {
   let ul = document.createElement("ul");
   let li = document.createElement("li");
   let elements = document.createTextNode("texto dentro de li");
@@ -16,9 +16,8 @@
 
   document.querySelector("#lista").appendChild(ul);
 });
-*/
 
-//document.querySelector("#contactForm")
+document.querySelector("#contactForm")
 document
   .getElementById("contactForm")
   .addEventListener("submit", function (event) {
